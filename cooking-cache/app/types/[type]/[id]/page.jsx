@@ -45,7 +45,7 @@ export default async function Page({ params }) {
           ))}
         </div>
         <div className="tags mt-3">
-          <span>Video Link: </span>
+          {/* <span>Video Link: </span>
           <a
             className="text-blue-500"
             target="_blank"
@@ -53,7 +53,7 @@ export default async function Page({ params }) {
             rel="noreferrer"
           >
             How to make {details.strMeal}
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
